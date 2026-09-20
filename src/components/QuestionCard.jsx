@@ -8,7 +8,7 @@ import {
   FileText, 
   ChevronDown, 
   ChevronUp, 
-  BookmarkCheck,
+  Terminal,
   Lightbulb
 } from 'lucide-react';
 
@@ -100,7 +100,7 @@ export function QuestionCard({
           onClick={() => setShowSolution(!showSolution)}
         >
           <Code size={16} />
-          {showSolution ? 'Hide Solution' : 'View Java Solution'}
+          {showSolution ? 'Hide Solution & Output' : 'View Java Solution & Output'}
           {showSolution ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
         </button>
 
@@ -128,6 +128,19 @@ export function QuestionCard({
           <pre>
             <code>{question.solutionCode}</code>
           </pre>
+
+          {/* Program Console Output */}
+          {question.solutionOutput && (
+            <div className="solution-output-box">
+              <div className="output-header">
+                <Terminal size={14} style={{ color: '#10b981' }} />
+                <span>Program Console Output</span>
+              </div>
+              <pre className="output-content">
+                <code>{question.solutionOutput}</code>
+              </pre>
+            </div>
+          )}
         </div>
       )}
 

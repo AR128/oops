@@ -29,7 +29,12 @@ export const questionsData = [
         System.out.println("Boolean Value: " + booleanValue);
         System.out.println("Casted Double to Int (Truncated): " + castedInt);
     }
-}`
+}`,
+    solutionOutput: `Integer Value: 42
+Double Value: 99.85
+Character Value: J
+Boolean Value: true
+Casted Double to Int (Truncated): 99`
   },
   {
     id: 2,
@@ -57,7 +62,9 @@ export const questionsData = [
         System.out.println("Sum of array elements: " + sum);
         System.out.println("Average of array elements: " + average);
     }
-}`
+}`,
+    solutionOutput: `Sum of array elements: 592
+Average of array elements: 59.2`
   },
   {
     id: 3,
@@ -90,7 +97,9 @@ export const questionsData = [
         System.out.println("Maximum Element: " + max);
         System.out.println("Minimum Element: " + min);
     }
-}`
+}`,
+    solutionOutput: `Maximum Element: 99
+Minimum Element: -15`
   },
   {
     id: 4,
@@ -126,7 +135,11 @@ public class StudentTest {
 
         student1.displayDetails();
     }
-}`
+}`,
+    solutionOutput: `--- Student Details ---
+Name: Aarav Sharma
+Roll Number: 101
+Marks: 92.5`
   },
   {
     id: 5,
@@ -156,7 +169,11 @@ public class StudentTest {
             System.out.println();
         }
     }
-}`
+}`,
+    solutionOutput: `3x3 Matrix:
+1	2	3	
+4	5	6	
+7	8	9`
   },
   {
     id: 6,
@@ -190,7 +207,8 @@ public class RectangleTest {
         Rectangle rect = new Rectangle(12.5, 8.0);
         System.out.println("Area of Rectangle: " + rect.calculateArea());
     }
-}`
+}`,
+    solutionOutput: `Area of Rectangle: 100.0`
   },
   {
     id: 7,
@@ -221,7 +239,9 @@ public class RectangleTest {
         System.out.println("Total Even Numbers: " + evenCount);
         System.out.println("Total Odd Numbers: " + oddCount);
     }
-}`
+}`,
+    solutionOutput: `Total Even Numbers: 5
+Total Odd Numbers: 4`
   },
   {
     id: 8,
@@ -251,7 +271,8 @@ public class CounterTest {
 
         System.out.println("Total Objects Created (Counter.count): " + Counter.count);
     }
-}`
+}`,
+    solutionOutput: `Total Objects Created (Counter.count): 3`
   },
   {
     id: 9,
@@ -279,7 +300,9 @@ public class ReverseArrayCopy {
         System.out.println("Original Array: " + Arrays.toString(original));
         System.out.println("Reversed Array: " + Arrays.toString(reversed));
     }
-}`
+}`,
+    solutionOutput: `Original Array: [10, 20, 30, 40, 50]
+Reversed Array: [50, 40, 30, 20, 10]`
   },
   {
     id: 10,
@@ -334,7 +357,10 @@ public class BankAccountTest {
         account.withdraw(150.0);
         System.out.println("Final Balance: $" + account.getBalance());
     }
-}`
+}`,
+    solutionOutput: `Deposited: $200.0
+Withdrew: $150.0
+Final Balance: $550.0`
   },
 
   // SECTION B: MEDIUM (Q11 - Q20)
@@ -382,7 +408,11 @@ public class BankAccountTest {
             System.out.println();
         }
     }
-}`
+}`,
+    solutionOutput: `Sum Matrix:
+10	10	10	
+10	10	10	
+10	10	10`
   },
   {
     id: 12,
@@ -431,7 +461,9 @@ public class EmployeeSearch {
         System.out.println("Employee with Highest Salary:");
         highest.display();
     }
-}`
+}`,
+    solutionOutput: `Employee with Highest Salary:
+ID: 4, Name: Diana, Salary: $95000.0`
   },
   {
     id: 13,
@@ -464,7 +496,8 @@ public class EmployeeSearch {
         }
         System.out.println();
     }
-}`
+}`,
+    solutionOutput: `Principal Diagonal Elements: 10 50 90`
   },
   {
     id: 14,
@@ -515,7 +548,8 @@ public class TimeAdditionTest {
         System.out.print("Added Time: ");
         result.display();
     }
-}`
+}`,
+    solutionOutput: `Added Time: 6 Hours, 15 Minutes`
   },
   {
     id: 15,
@@ -551,7 +585,11 @@ public class TimeAdditionTest {
             System.out.println();
         }
     }
-}`
+}`,
+    solutionOutput: `Jagged Array Contents:
+1 2 
+3 4 5 
+6 7 8 9`
   },
   {
     id: 16,
@@ -600,7 +638,10 @@ public class BoxOverloadingTest {
         System.out.println("Volume b2 (Cube 5): " + b2.calculateVolume());
         System.out.println("Volume b3 (4x6x8): " + b3.calculateVolume());
     }
-}`
+}`,
+    solutionOutput: `Volume b1 (Default): 1.0
+Volume b2 (Cube 5): 125.0
+Volume b3 (4x6x8): 192.0`
   },
   {
     id: 17,
@@ -636,7 +677,8 @@ public class BoxOverloadingTest {
             System.out.println("Book '" + query + "' not found.");
         }
     }
-}`
+}`,
+    solutionOutput: `Book 'Effective Java' found at index: 1`
   },
   {
     id: 18,
@@ -680,7 +722,8 @@ public class ComplexTest {
         System.out.print("Product: ");
         product.display();
     }
-}`
+}`,
+    solutionOutput: `Product: -5.0 + 14.0i`
   },
   {
     id: 19,
@@ -724,7 +767,9 @@ public class BubbleSortDemo {
         
         System.out.println("After Bubble Sort: " + Arrays.toString(data));
     }
-}`
+}`,
+    solutionOutput: `Before Sorting: [64, 34, 25, 12, 22, 11, 90]
+After Bubble Sort: [11, 12, 22, 25, 34, 64, 90]`
   },
   {
     id: 20,
@@ -767,7 +812,14 @@ public class BubbleSortDemo {
             System.out.println("Sum of Column " + (j + 1) + ": " + colSum);
         }
     }
-}`
+}`,
+    solutionOutput: `Sum of Row 1: 16
+Sum of Row 2: 20
+Sum of Row 3: 17
+Sum of Column 1: 14
+Sum of Column 2: 13
+Sum of Column 3: 8
+Sum of Column 4: 18`
   },
 
   // SECTION C: ADVANCED (Q21 - Q30)
@@ -822,7 +874,10 @@ public class BubbleSortDemo {
             System.out.println();
         }
     }
-}`
+}`,
+    solutionOutput: `Resultant Matrix (2x2):
+31	19	
+85	55`
   },
   {
     id: 22,
@@ -872,7 +927,8 @@ public class BubbleSortDemo {
         }
         System.out.println();
     }
-}`
+}`,
+    solutionOutput: `Spiral Order: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10`
   },
   {
     id: 23,
@@ -933,7 +989,11 @@ public class MyArrayListTest {
         System.out.println("Total Size: " + list.size());
         System.out.println("Element at index 5: " + list.get(5));
     }
-}`
+}`,
+    solutionOutput: `Resized capacity to: 8
+Resized capacity to: 16
+Total Size: 10
+Element at index 5: 60`
   },
   {
     id: 24,
@@ -977,7 +1037,10 @@ public class SingletonTest {
         db1.query("SELECT * FROM users");
         System.out.println("Are db1 and db2 the same instance? " + (db1 == db2));
     }
-}`
+}`,
+    solutionOutput: `Initializing Database Connection Pool...
+Executing SQL: SELECT * FROM users
+Are db1 and db2 the same instance? true`
   },
   {
     id: 25,
@@ -1031,7 +1094,11 @@ public class SingletonTest {
             System.out.println();
         }
     }
-}`
+}`,
+    solutionOutput: `Matrix after 90 Deg Clockwise Rotation:
+7	4	1	
+8	5	2	
+9	6	3`
   },
   {
     id: 26,
@@ -1093,7 +1160,12 @@ public class LibraryTest {
         lib.addBook(new Book("OOP Masterclass", "Soham Sengupta"));
         lib.findBookByAuthor("Soham Sengupta");
     }
-}`
+}`,
+    solutionOutput: `Added: Java Fundamentals
+Added: OOP Masterclass
+Searching books by Soham Sengupta:
+- Java Fundamentals
+- OOP Masterclass`
   },
   {
     id: 27,
@@ -1144,7 +1216,8 @@ public class LibraryTest {
 
         System.out.println("Is Magic Square? " + isMagicSquare(magic));
     }
-}`
+}`,
+    solutionOutput: `Is Magic Square? true`
   },
   {
     id: 28,
@@ -1185,7 +1258,10 @@ public class ImmutabilityDemo {
         System.out.println("P2 Coordinates: (" + p2.getX() + ", " + p2.getY() + ")");
         System.out.println("P1 unchanged? " + (p1 != p2));
     }
-}`
+}`,
+    solutionOutput: `P1 Coordinates: (5, 10)
+P2 Coordinates: (7, 13)
+P1 unchanged? true`
   },
   {
     id: 29,
@@ -1234,7 +1310,8 @@ public class ImmutabilityDemo {
 
         System.out.println("Result: " + checkWinner(board));
     }
-}`
+}`,
+    solutionOutput: `Result: X Wins!`
   },
   {
     id: 30,
@@ -1284,6 +1361,8 @@ public class CopyDemo {
         System.out.println("s1 Course 0: " + s1.courses[0].courseName); // Remains "Java"
         System.out.println("s2 Course 0: " + s2.courses[0].courseName); // Changed to "Advanced Java"
     }
-}`
+}`,
+    solutionOutput: `s1 Course 0: Java
+s2 Course 0: Advanced Java`
   }
 ];

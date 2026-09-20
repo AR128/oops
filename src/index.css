@@ -592,6 +592,34 @@ body {
   line-height: 1.5;
 }
 
+/* Console Output Box */
+.solution-output-box {
+  border-top: 1px dashed rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.output-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.output-content {
+  padding: 12px 16px !important;
+  font-family: var(--font-code);
+  font-size: 0.85rem !important;
+  color: #a7f3d0 !important;
+  background: transparent !important;
+  margin: 0 !important;
+}
+
 /* Personal Notes Box */
 .notes-container {
   margin-top: 12px;
